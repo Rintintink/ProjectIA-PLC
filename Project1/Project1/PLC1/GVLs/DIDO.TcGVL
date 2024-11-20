@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <GVL Name="DIDO" Id="{2e427f3a-144f-4aff-8c4b-5ae56a94745e}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	
+	 
+	op1 AT %Q* : BOOL := FALSE;
+	op2 AT %Q* : BOOL := FALSE;
+	op3 AT %Q* : BOOL := FALSE;
+	op4 AT %Q* : BOOL := FALSE;
+	Outputs AT%Q* : ARRAY [0..3] OF BOOL;
+	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
