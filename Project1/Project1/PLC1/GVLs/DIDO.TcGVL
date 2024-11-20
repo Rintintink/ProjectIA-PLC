@@ -5,11 +5,10 @@
 VAR_GLOBAL
 	
 	 
-	op1 AT %Q* : BOOL := FALSE;
-	op2 AT %Q* : BOOL := FALSE;
-	op3 AT %Q* : BOOL := FALSE;
-	op4 AT %Q* : BOOL := FALSE;
-	Outputs AT%Q* : ARRAY [0..3] OF BOOL;
+	Uitgang1 AT %QX26.0 : BOOL := FALSE;
+	Uitgang2 AT %QX26.1 : BOOL := FALSE;
+	Uitgang3 AT %QX26.2 : BOOL := FALSE;
+	Uitgang4 AT %QX26.3 : BOOL := FALSE;
 	
 END_VAR]]></Declaration>
   </GVL>
